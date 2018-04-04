@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.johnyang.a1100941170.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Please Select Your Restaurant:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/restaurant_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:id="@+id/text_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Restaurant Menu: "
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_food"
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        android:layout_weight="0.96"
+        android:background="@drawable/background"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClick"
+        android:text="Next" />
+
+</LinearLayout>

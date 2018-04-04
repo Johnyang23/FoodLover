@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">A1100941170</string>
+    <string-array name="americanRestaurant">
+        <item>Caesar Palace</item>
+        <item>Boston Pizza</item>
+        <item>Kelseys</item>
+    </string-array>
+
+    <string-array name="italianRestaurant">
+        <item>Frankie Tomato</item>
+        <item>Pizza Nova</item>
+        <item>Vivoli</item>
+    </string-array>
+
+    <string-array name="chineseRestaurant">
+        <item>Pho 88</item>
+        <item>Sunshine Cuisine</item>
+        <item>New Choice</item>
+    </string-array>
+
+    <string-array name="indianRestaurant">
+        <item>Paramount</item>
+        <item>Tasty Shawarma</item>
+        <item>Indian Sweets</item>
+    </string-array>
+
+    <string-array name="jamaicanRestaurant">
+        <item>Negrail</item>
+        <item>Patties</item>
+        <item>Jerk Jamaican</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.johnyang.a1100941170.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+        android:layout_weight="0.95"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:forceHasOverlappingRendering="false"
+            android:text="Please select type of cuisine: "
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/button_american"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="American"
+            android:textColor="@android:color/background_dark" />
+
+        <RadioButton
+            android:id="@+id/button_italian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Italian" />
+
+        <RadioButton
+            android:id="@+id/button_chinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chinese" />
+
+        <RadioButton
+            android:id="@+id/button_indian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indian" />
+
+        <RadioButton
+            android:id="@+id/button_jamaican"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jamaican" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="buttonClick"
+        android:text="Next" />
+
+</LinearLayout>
